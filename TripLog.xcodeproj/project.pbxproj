@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		B098B8BC1A7477A40022C33E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B098B8BB1A7477A40022C33E /* main.m */; };
 		B098B8BF1A7477A40022C33E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B098B8BE1A7477A40022C33E /* AppDelegate.m */; };
-		B098B8C21A7477A40022C33E /* TripLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B098B8C01A7477A40022C33E /* TripLog.xcdatamodeld */; };
-		B098B8C51A7477A40022C33E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B098B8C41A7477A40022C33E /* ViewController.m */; };
 		B098B8C81A7477A40022C33E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B098B8C61A7477A40022C33E /* Main.storyboard */; };
 		B098B8CA1A7477A40022C33E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B098B8C91A7477A40022C33E /* Images.xcassets */; };
-		B098B8CD1A7477A40022C33E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B098B8CB1A7477A40022C33E /* LaunchScreen.xib */; };
 		B098B8D91A7477A40022C33E /* TripLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B098B8D81A7477A40022C33E /* TripLogTests.m */; };
+		B098B8E41A7478D20022C33E /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B098B8E31A7478D20022C33E /* ListViewController.m */; };
+		B098B8E71A747E9F0022C33E /* LogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = B098B8E61A747E9F0022C33E /* LogEntry.m */; };
+		B098B8ED1A74CABC0022C33E /* LogEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B098B8EC1A74CABC0022C33E /* LogEntryCell.m */; };
+		B0EB72281A7593D20074F502 /* ControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EB72271A7593D20074F502 /* ControlCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,15 +34,19 @@
 		B098B8BB1A7477A40022C33E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B098B8BD1A7477A40022C33E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B098B8BE1A7477A40022C33E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B098B8C11A7477A40022C33E /* TripLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TripLog.xcdatamodel; sourceTree = "<group>"; };
-		B098B8C31A7477A40022C33E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B098B8C41A7477A40022C33E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B098B8C71A7477A40022C33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B098B8C91A7477A40022C33E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B098B8CC1A7477A40022C33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B098B8D21A7477A40022C33E /* TripLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B098B8D71A7477A40022C33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B098B8D81A7477A40022C33E /* TripLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripLogTests.m; sourceTree = "<group>"; };
+		B098B8E21A7478D20022C33E /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		B098B8E31A7478D20022C33E /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		B098B8E51A747E9F0022C33E /* LogEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogEntry.h; sourceTree = "<group>"; };
+		B098B8E61A747E9F0022C33E /* LogEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogEntry.m; sourceTree = "<group>"; };
+		B098B8EB1A74CABC0022C33E /* LogEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogEntryCell.h; sourceTree = "<group>"; };
+		B098B8EC1A74CABC0022C33E /* LogEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogEntryCell.m; sourceTree = "<group>"; };
+		B0EB72261A7593D20074F502 /* ControlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlCell.h; sourceTree = "<group>"; };
+		B0EB72271A7593D20074F502 /* ControlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +90,17 @@
 			children = (
 				B098B8BD1A7477A40022C33E /* AppDelegate.h */,
 				B098B8BE1A7477A40022C33E /* AppDelegate.m */,
-				B098B8C31A7477A40022C33E /* ViewController.h */,
-				B098B8C41A7477A40022C33E /* ViewController.m */,
 				B098B8C61A7477A40022C33E /* Main.storyboard */,
 				B098B8C91A7477A40022C33E /* Images.xcassets */,
-				B098B8CB1A7477A40022C33E /* LaunchScreen.xib */,
-				B098B8C01A7477A40022C33E /* TripLog.xcdatamodeld */,
 				B098B8B91A7477A40022C33E /* Supporting Files */,
+				B098B8E21A7478D20022C33E /* ListViewController.h */,
+				B098B8E31A7478D20022C33E /* ListViewController.m */,
+				B098B8E51A747E9F0022C33E /* LogEntry.h */,
+				B098B8E61A747E9F0022C33E /* LogEntry.m */,
+				B098B8EB1A74CABC0022C33E /* LogEntryCell.h */,
+				B098B8EC1A74CABC0022C33E /* LogEntryCell.m */,
+				B0EB72261A7593D20074F502 /* ControlCell.h */,
+				B0EB72271A7593D20074F502 /* ControlCell.m */,
 			);
 			path = TripLog;
 			sourceTree = "<group>";
@@ -203,7 +212,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B098B8C81A7477A40022C33E /* Main.storyboard in Resources */,
-				B098B8CD1A7477A40022C33E /* LaunchScreen.xib in Resources */,
 				B098B8CA1A7477A40022C33E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,9 +230,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B098B8C21A7477A40022C33E /* TripLog.xcdatamodeld in Sources */,
+				B0EB72281A7593D20074F502 /* ControlCell.m in Sources */,
+				B098B8ED1A74CABC0022C33E /* LogEntryCell.m in Sources */,
 				B098B8BF1A7477A40022C33E /* AppDelegate.m in Sources */,
-				B098B8C51A7477A40022C33E /* ViewController.m in Sources */,
+				B098B8E71A747E9F0022C33E /* LogEntry.m in Sources */,
+				B098B8E41A7478D20022C33E /* ListViewController.m in Sources */,
 				B098B8BC1A7477A40022C33E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +264,6 @@
 				B098B8C71A7477A40022C33E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B098B8CB1A7477A40022C33E /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B098B8CC1A7477A40022C33E /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -416,6 +418,7 @@
 				B098B8DE1A7477A40022C33E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B098B8DF1A7477A40022C33E /* Build configuration list for PBXNativeTarget "TripLogTests" */ = {
 			isa = XCConfigurationList;
@@ -424,21 +427,9 @@
 				B098B8E11A7477A40022C33E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		B098B8C01A7477A40022C33E /* TripLog.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B098B8C11A7477A40022C33E /* TripLog.xcdatamodel */,
-			);
-			currentVersion = B098B8C11A7477A40022C33E /* TripLog.xcdatamodel */;
-			path = TripLog.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = B098B8AE1A7477A40022C33E /* Project object */;
 }

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  listViewController.h
 //  TripLog
 //
 //  Created by Yinan Na on 1/24/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ListViewController : UITableViewController
 
 @end
-
